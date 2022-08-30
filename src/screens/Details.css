@@ -1,0 +1,97 @@
+.details-container{
+    margin-top: 200px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+
+.image-section{
+   
+    width:100%;
+    height:300px;
+    margin-right: 0%;
+}
+.details-img{
+    
+    height:100%;
+}
+.details-section{
+    width:100%;
+    height:300px;
+    background-color: #fff;
+    
+}
+.rating-section{
+    margin-left: -60%;
+}
+.price-text{
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.tax-text{
+    text-align: start;
+    margin-left: 10px;
+    font-size: smaller;
+    color:#36a9ae;
+}
+.size-btn-section{
+    margin-left: -60%;
+}
+.size-btn{
+    background-color: white;
+    border:1px solid black;
+    border-radius: 20px;
+    height:40px;
+    width:40px;
+    text-align: center;
+}
+.whistle-bag-section{
+   margin-left: -8%;
+}
+.whistle-btn{
+    border:1px solid black;
+    width:40%;
+    background-color: #fff;
+    padding: 10px;
+}
+.bag-btn{
+    border:1px solid black;
+    margin-left: 10px;
+    width:40%;
+    background-color: black;
+    color:white;
+   padding: 10px;
+
+}
+.quantity-section {
+    margin-left: -48%;
+}
+.btn-quantity{
+    background-color: #fff;
+    padding: 5px;
+    border:1px solid gray;
+    width:10%;
+    margin: 5px;
+    font-weight: bold;
+}
+.add-cart-section{
+    margin-left: -23%;
+    
+}
+.add-cart-btn{
+    border:1px solid black;
+    margin-left: 10px;
+    width:30%;
+    background-color: black;
+    color:white;
+   padding: 10px;
+}
+.share-btn{
+    border:1px solid white;
+    margin-left: 10px;
+    width:30%;
+    background-color: #fff;
+    color:black;
+    padding: 10px;
+}

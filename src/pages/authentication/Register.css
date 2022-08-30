@@ -1,0 +1,89 @@
+.register-form{
+    margin: 0 auto;
+    width: 20%;
+    border:1px solid gainsboro;
+    margin-top: 100px;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #fff;
+}
+.register-form input:not([type=checkbox]){
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.agree-checkbox{
+    margin-left: -50px;
+}
+.social-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-login-btn{
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    margin: 10px;
+    background-color: #fff;
+    border:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+}
+.social-fb-btn{
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    margin: 10px;
+    background-color: #fff;
+    margin-left: -1px;
+    border:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.social-twitter-btn{
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    margin: 10px;
+    background-color: #fff;
+    margin-left: -1px;
+    border:#fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.google-icon{
+    color:green;
+    font-size: 20px;
+}
+.facebook-icon{
+    color:rgba(0, 0, 255, 0.484);
+    font-size: 20px;
+}
+/* @media only screen and (min-width: 400px) {
+
+    .register-form{
+        margin: 0 auto;
+        width: 80%;
+        border:1px solid gainsboro;
+        margin-top: 100px;
+        padding: 8px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+    .agree-checkbox{
+       margin-left: 1px;
+       padding: 15px;
+    }
+
+
+} */

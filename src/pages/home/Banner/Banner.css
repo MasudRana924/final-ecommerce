@@ -1,0 +1,67 @@
+.brand-category-title {
+    font-size: 25px;
+    background-color: black;
+    line-height: 40px;
+    width: 300px;
+    margin-left: 270px;
+    color:white;
+    border-radius: 20px;
+}
+
+.fa-sort-amount-up {
+    color: rgba(50, 205, 50, 0.734);
+    padding-right: 10px;
+}
+
+.brand-category {
+    height: 438px;
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 270px;
+    background-color: rgba(0, 0, 0, 0.878);
+    border-radius: 10px;
+    color: white;
+    font-size: 28px;
+    text-align: start;
+}
+.brand-category p{
+    padding-left: 55px;
+}
+.brand-text {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.brand-text:hover{
+    color:#EA6F1B;
+}
+.fa-tshirt ,.fa-boot{
+    color:#EA6F1B;
+    font-size: 20px;
+    
+}
+/* for small devices */
+@media screen and (min-width: 410px) {
+    .brand-category {
+        height: 438px;
+        border: 1px solid black;
+        width: 300px;
+        margin-left: 45px;
+        background-color: rgba(0, 0, 0, 0.878);
+        border-radius: 10px;
+        color: white;
+        font-size: 28px;
+        text-align: start;
+    }
+    .brand-category-title {
+        font-size: 25px;
+        background-color: black;
+        line-height: 40px;
+        width: 300px;
+        margin-left: 45px;
+        color:white;
+        border-radius: 20px;
+    }
+  }

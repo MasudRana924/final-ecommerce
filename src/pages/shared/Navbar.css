@@ -1,0 +1,120 @@
+.navbar-section {
+    height: 120px;
+    background-color: white;
+    display: flex;
+}
+.left-nav-side {
+    width: 30%;
+
+}
+.title {
+    color: black;
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 80px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.middle-nav-side {
+    width: 40%;
+}
+.search {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 20px;
+    width: 400px;
+    outline-style: none;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 15px;
+    /* background-color: rgba(240, 255, 255, 0.765); */
+    background-color: #fff;
+}
+.search-btn{
+    border: 1px solid ;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #fff;
+    font-weight:300;
+}
+
+.right-nav-side {
+    width: 30%;
+}
+
+.user-icon,
+.cart-icon,
+.heart-icon {
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+.cart-item{
+   position: absolute;
+   margin-left: -20px;
+}
+
+.nav-icon-section {
+    margin-left: 200px;
+    padding-top: 15px;
+}
+
+/* @media only screen and (min-width: 400px) {
+    .navbar-section {
+        visibility: hidden;
+        height: 0px;
+    }
+
+    .small-devices-navbar {
+        height: 150px;
+        background-color: black;
+    }
+
+    .top-nav {
+        display: flex;
+       width: 100%;
+       height:40px;
+    }
+   .title-section{
+    width:50%;
+   }
+    .title {
+        color: #fff;
+        text-align: start;
+        font-size: 25px;
+        margin-left: 10%;
+    }
+
+    .nav-icon-section {
+        display: flex;
+        padding-top: 0px;
+        width:50%;
+        margin-left: 0%;
+        justify-content: center;
+        margin-left: 60px;
+        
+    }
+    .user-icon,
+    .cart-icon,
+    .heart-icon {
+        color: #fff;
+        font-size: 20px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+    .search {
+        border: 1px solid white;
+        border-radius: 5px;
+        height: 35px;
+        width: 400px;
+        outline-style: none;
+        text-decoration: none;
+        list-style: none;
+        padding-left: 15px;
+    }
+
+
+
+} */
